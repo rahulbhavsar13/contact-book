@@ -1,0 +1,87 @@
+body{
+    font-size: 0.875rem;
+}
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+h1{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px 0;
+}
+.required{
+	display: inline ;
+	position: relative;
+	&:after{
+		content: "*";
+		display: block;
+		position: absolute;
+		right: -10px;
+		top: -3px;
+		color: red;
+	}
+}
+.contact-list{
+    border-right: 1px solid #cccccc;
+    height: calc(100vh - 56px);
+    overflow: auto;
+    .contact{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #cccccc;
+        strong,
+        small{
+            display: block;
+        }
+        p{
+            font-size: 80%;
+        }
+        p,
+        strong{
+            margin: 0;
+        }
+    }
+}
+
+.add-contact-form{
+    text-align: left;
+    padding: 10px 0;
+    .form-group{
+        label{
+            display: inline;
+        }
+        label + input,
+        label + textarea{
+            margin-top: 5px;
+        }
+    }
+    .form-control{
+        font-size: 0.75rem;
+    }
+    .btn-toolbar{
+        justify-content: flex-end;
+        border-top: 1px solid #cccccc;
+        padding-top: 10px;
+        button{
+            font-size: 0.75rem;
+            + button{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.error{
+    border-color: red;
+}
