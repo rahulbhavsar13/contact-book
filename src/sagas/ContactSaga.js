@@ -2,6 +2,7 @@ import { call, put, all, takeEvery, takeLatest } from 'redux-saga/effects';
 import * as ActionTypes from '../actions/actionsTypes';
 import * as ContactActions from '../actions/contactActions';
 import { ContactsService } from '../services';
+//import { handleRemoteData } from './AppSaga';
 
 /**
  * Saga handler to handle API Call.
