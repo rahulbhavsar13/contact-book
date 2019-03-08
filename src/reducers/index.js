@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
-//import reducer from './reducer';
 import contactReducer from './contactReducer';
 
 /**
@@ -9,7 +8,6 @@ import contactReducer from './contactReducer';
  * @param {Object} action 
  */
 const rootReducer = (state, action) => {
-  //state = undefined;
   return appReducer(state, action);
 };
 

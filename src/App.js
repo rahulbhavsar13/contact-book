@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import { Row, Col, PanelGroup, Panel, Button, FormGroup, ControlLabel, FormControl } from 'react-bootstrap';
 import './assets/App.scss';
 import ContactList from './contact-list';
 

@@ -1,13 +1,6 @@
 import React from 'react';
 import { Col, FormGroup, FormControl } from 'react-bootstrap';
 import { Field } from 'redux-form';
-// import ReactTelInput from 'react-telephone-input';
-// import Typeahead from '../components/common/typeahead/Typeahead';
-// import JSONEditor from '../components/common/editors/json';
-// import * as FormValidator from './FormValidator';
-// import Icon from '../assets/icons';
-// import Flags from '../assets/images/flags.png';
-
 
 /**
  * Helper to build a dropdown form component.
