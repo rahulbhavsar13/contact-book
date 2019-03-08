@@ -105,7 +105,6 @@ class ContactList extends React.Component {
 
     renderData=(contacts)=> {
         let contactArr = sortBy(contacts, contact => contact.name);
-        console.log(contactArr)
         return contactArr.map((contact, index)=>{
             return <div className="contact" key={index}>
                   <strong>{contact.name}</strong>
