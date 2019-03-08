@@ -117,7 +117,6 @@ class ContactList extends React.Component {
     }
 
     submitContactDetails=(details)=>{
-        console.log(details);
         this.props.addContact(details);
         this.resetForm();
     }
